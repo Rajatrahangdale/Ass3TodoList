@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+body {
+  margin: 0 180px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.text {
+  letter-spacing: 15px;
+  font-weight: 400;
+  color: red;
+}
+.todoInput {
+  width: 70vw;
+  margin: 40px 0;
+  padding: 5px 0;
+  border: 1px solid gray;
+}
+.todoBtn {
+  margin: 5px 0;
+  background: none;
+  border: 1px solid red;
+  padding: 6px 8px;
+  color: red;
+  border-radius: 5px;
+}
+.todoBtn:active {
+  background: red;
+  color: aliceblue;
+}
+.listTodo {
+  font-size: 40px;
+  margin: 10px 0;
+  padding: 10px;
+  font-weight: 100;
+}
+.cssCheck {
+  position: absolute;
+  top: 40%;
+  left: -40px;
+}
+li {
+  position: relative;
+  margin: 10px 30px;
+  padding: 6px 8px;
+  width: 40vw;
+  background-color: #277e85;
+  border-left: 4px solid black;
+  font-size: 25px;
+  text-decoration: none;
+  list-style: none;
+  border-radius: 5px;
+}
+.saveBtnDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.saveBtn {
+  margin-top: 100px;
+  background: green;
+  border: none;
+  padding: 6px 8px;
+  color: white;
+  border-radius: 5px;
+  scale: 1.2;
+}
+.saveBtn:active {
+  border: 2px solid green;
+  background: none;
+  color: black;
+}
+.checked {
+  text-decoration: line-through;
+  color: rgb(51, 46, 46);
+}
+.delete {
+  position: absolute;
+  right: 5px;
+  scale: 0.6;
+  color: black;
+}
